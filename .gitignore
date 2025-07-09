@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+# Ignore all .env files, but keep .env.example for reference
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Drizzle
+# The migrations themselves should be in version control, but you might want to ignore session files if any are created.
+# .drizzle/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
