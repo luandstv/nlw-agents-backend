@@ -70,8 +70,10 @@ Siga as instruções abaixo para configurar e executar o projeto em seu ambiente
 
 - `npm run dev`: Inicia o servidor em modo de desenvolvimento com hot-reload.
 - `npm run start`: Inicia o servidor em modo de produção.
-- `npm run db:migrate`: Executa as migrações do banco de dados.
+- `npm run db:generate`: Gera um novo arquivo de migração após alterações no schema.
+- `npm run db:migrate`: Aplica as migrações pendentes no banco de dados.
 - `npm run db:seed`: Popula o banco de dados com dados de teste.
+- `npm run db:studio`: Abre o Drizzle Studio para visualizar e gerenciar o banco de dados.
 
 ## ↔️ Endpoints da API
 
@@ -79,3 +81,6 @@ Para testar os endpoints disponíveis, você pode usar o arquivo `client.http` c
 
 - `GET /health`: Verifica o status da aplicação.
 - `GET /rooms`: Lista as salas disponíveis.
+- `POST /rooms`: Cria uma nova sala.
+- `GET /rooms/:roomId/questions`: Lista as perguntas de uma sala.
+- `POST /rooms/:roomId/questions`: Cria uma nova pergunta em uma sala.
