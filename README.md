@@ -11,6 +11,7 @@ Este é o serviço de backend para a aplicação NLW Agents, responsável por ge
 - **ORM:** [Drizzle ORM](https://orm.drizzle.team/)
 - **Banco de Dados:** [PostgreSQL](https://www.postgresql.org/) com a extensão [pgvector](https://github.com/pgvector/pgvector)
 - **Validação:** [Zod](https://zod.dev/)
+- **IA:** [Google Gemini](https://ai.google.dev/)
 - **Containerização:** [Docker](https://www.docker.com/)
 
 ## 🚀 Começando
